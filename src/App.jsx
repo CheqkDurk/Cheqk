@@ -10,13 +10,13 @@ import {
   Divider,
   Avatar,
   Frame,
-  ScrollView
-} from 'react95';
-import { 
+  ScrollView,
   TitleBar, 
-  TaskBar 
-} from '@react95/core';
-import { Logo, Computer, RecycleFull } from '@react95/icons';
+  Taskbar 
+} from 'react95';
+import { Logo, Computer, RecycleFull as RecycleBin } from '@react95/icons';
+
+const MyComputer = Computer;
 
 // Componente de Login estilo Windows 95
 const LoginScreen = ({ onLogin, error }) => {
