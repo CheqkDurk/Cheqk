@@ -1,0 +1,38 @@
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+*.js
+*.css
+*.html
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package lock
+package-lock.json
+
+# Vite
+.vite/
+
+```
