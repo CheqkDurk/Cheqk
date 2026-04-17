@@ -13,7 +13,7 @@ import {
   ScrollView,
   TitleBar, 
   Taskbar 
-} from 'react95';
+} from '@react95/core';
 import { Logo, Computer, RecycleFull as RecycleBin } from '@react95/icons';
 
 const MyComputer = Computer;
